@@ -220,6 +220,7 @@
             // Switch views
             document.getElementById("dashboardView").classList.add("hidden");
             document.getElementById("habitatView").classList.remove("hidden");
+            document.getElementById("apiKeyInput").parentElement.classList.add("hidden");
 
             // Focus on input
             document.getElementById("userMessageInput").focus();
@@ -243,6 +244,7 @@
 
             document.getElementById("habitatView").classList.add("hidden");
             document.getElementById("dashboardView").classList.remove("hidden");
+            document.getElementById("apiKeyInput").parentElement.classList.remove("hidden");
             currentFish = null;
             currentMessages = [];
         }
